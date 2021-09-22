@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+html{
+    font-size: 62.5%;
+    /*16px × 62.5 = 10px 
+      htmlは基本16pxで表記されるから上記の記述で基準値を補正*/
+}
+
+body{
+    color: black;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size: 1.6rem;
+    width: 2000px;
+    margin-left: 50px;
+    display: flex;
+
+
+}
+
+fieldset {
+    margin-top: 2em;
+}
+input {
+    margin-right: auto;
+}
